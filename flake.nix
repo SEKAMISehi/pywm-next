@@ -20,13 +20,13 @@
       packages.pywm-next = (
         pkgs.python3.pkgs.buildPythonPackage rec {
           pname = "pywm-next";
-          version = "0.4.2";
+          version = "0.4.3";
 
           # BEGIN f**king subprojects bug workaround for 'src = ./.'
           srcs = [
             ./.
             (builtins.fetchGit {
-              url = "https://github.com/newm-next/wlroots";
+              url = "https://github.com/SEKAMISehi/wlroots.git";
               submodules = true;
             })
           ];
