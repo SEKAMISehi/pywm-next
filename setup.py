@@ -36,4 +36,4 @@ setup(name='pywm',
       maintainer_email='117589194+SEKAMISehi@users.noreply.github.com',
       package_data={'pywm': ['_pywm.so', 'py.typed']},
       packages=['pywm'],
-      install_requires=['evdev', 'imageio', 'pycairo', 'numpy'])
+      install_requires=['thefuzz','evdev', 'imageio', 'pycairo', 'numpy'],)
