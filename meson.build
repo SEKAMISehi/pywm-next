@@ -1,7 +1,7 @@
 project(
     'pywm-next',
     'c',
-    version: '0.3.1',
+    version: '0.3.1.1',
     license: 'MIT',
     meson_version: '>=0.48.0',
     default_options : [
