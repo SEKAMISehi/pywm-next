@@ -2,6 +2,7 @@
 .ccls-cache
 result
 build/*
+make/
 compile_commands.json
 **/__pycache__/*
 pywm/*.so
