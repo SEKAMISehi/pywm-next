@@ -7,6 +7,6 @@ INSTALL_DIR = ./make/pywm
 all: make
 
 make:  ## Установить в локальную директорию
-	pip install --target=$(INSTALL_DIR) . --upgrade && mv ./make/pywm/bin ./make/
+	pip install --target=$(INSTALL_DIR) . --upgrade && rm -r ./make/bin && mv ./make/pywm/bin ./make/
 clean:  ## Очистить установку
 	rm -rf $(INSTALL_DIR)
