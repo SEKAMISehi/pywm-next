@@ -49,7 +49,7 @@ if __name__ == "__main__":
             maintainer_email='117589194+SEKAMISehi@users.noreply.github.com',
             package_data={'pywm': ['_pywm.so', 'py.typed']},
             packages=['pywm'],
-            install_requires=['rapidfuzz', 'evdev', 'imageio', 'pycairo', 'numpy'],
+            install_requires=['evdev', 'imageio', 'pycairo', 'numpy'],
         )
     finally:
         print("make successful")
